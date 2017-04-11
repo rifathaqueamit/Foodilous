@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Foodilous</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_food_recipes">Food Recipes</string>
+    <string name="title_activity_recipe__page">Recipe</string>
+    <string name="title_activity_healthy_foods">Healthy Foods</string>
+    <string name="title_activity_unhealthy_foods">Unhealthy Foods</string>
+    <string name="title_activity_food_calories">Food Calories</string>
+    <string name="title_activity_bmi_calculator">BMI Calculator</string>
+
+</resources>

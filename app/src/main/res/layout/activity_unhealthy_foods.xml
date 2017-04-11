@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.rha.foodilous.healthy_foods">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:padding="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Unhealthy Foods"
+                android:textColor="#4A148C"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView android:text="1. Trans Fat\n
+2. Fast Foods\n
+3. Packaged Cookies\n
+4. Cake Frosting\n
+5. Pancakes\n
+6. Microwave Popcorn\n
+7. Frozen Meals\n
+8. High Fructose Corn Syrup\n
+9. Colas and Sodas\n
+10. Yogurt\n
+11. Ketchup\n
+12. Monosodium Glutamate\n
+13. Fried Foods\n
+14. Packaged Chips\n
+15. Artificial Sweeteners\n
+16. Light Foods and Beverages\n
+17. Diet Colas and Sodas\n
+18. Packaged Diet Snacks\n
+19. Sodium\n
+20. Cheese\n
+21. Salty Snacks\n
+22. Pizza\n
+23. Cholesterol\n
+24. Ice Cream\n
+25. Pork Products\n
+26. Doughnuts\n
+27. Saturated Fat\n
+28. Whipped Cream\n
+29. Fatty Meats\n
+30. Milkshakes\n
+31. Specialty Burgers\n
+32. High calorie foods\n
+33. Pasta Dishes\n
+34. Dressing\n
+35. Chocolate\n
+36. Cabohydrates\n
+37. Bagels\n
+38. Coffee Drinks\n
+39. Movie Popcorn\n
+"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

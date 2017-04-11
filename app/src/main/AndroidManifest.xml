@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rha.foodilous" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/foodilous_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".food_recipes"
+            android:label="@string/title_activity_food_recipes" >
+        </activity>
+        <activity
+            android:name=".Recipe_Page"
+            android:label="@string/title_activity_recipe__page" >
+        </activity>
+        <activity
+            android:name=".healthy_foods"
+            android:label="@string/title_activity_healthy_foods" >
+        </activity>
+        <activity
+            android:name=".unhealthy_foods"
+            android:label="@string/title_activity_unhealthy_foods" >
+        </activity>
+        <activity
+            android:name=".food_calories"
+            android:label="@string/title_activity_food_calories" >
+        </activity>
+        <activity
+            android:name=".bmi_calculator"
+            android:label="@string/title_activity_bmi_calculator" >
+        </activity>
+    </application>
+
+</manifest>

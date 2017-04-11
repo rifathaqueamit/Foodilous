@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.rha.foodilous.healthy_foods">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:padding="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Healthy Foods"
+            android:textColor="#4A148C"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView android:text="Vegetables\n--------------------\n\n1. Asparagus\n
+2. Avocados\n
+3. Beet greens\n
+4. Beets\n
+5. Bell peppers\n
+6. Bok choy\n
+7. Broccoli\n
+8. Brussels sprouts\n
+9. Cabbage\n
+10. Carrots\n
+11. Cauliflower\n
+12. Celery\n
+13. Collard greens\n
+14. Corn\n
+15. Cucumbers\n
+16. Eggplant\n
+17. Fennel\n
+18. Garlic\n
+19. Green beans\n
+20. Green peas\n
+21. Kale\n
+22. Leeks\n
+23. Mushrooms, crimini\n
+24. Mushrooms, shiitake\n
+25. Mustard greens\n
+26. Olive oil, extra virgin\n
+27. Olives\n
+28. Onions\n
+29. Potatoes\n
+30. Romaine lettuce\n
+31. Sea vegetables\n
+32. Spinach\n
+33. Squash, summer\n
+34. Squash, winter\n
+35. Sweet potatoes\n
+36. Swiss chard\n
+37. Tomatoes\n
+38. Turnip greens\n
+\n
+Fruits\n------------------
+\n\n
+1. Apples\n
+2. Apricots\n
+3. Bananas\n
+4. Blueberries\n
+5. Cantaloupe\n
+6. Cranberries\n
+7. Figs\n
+8. Grapefruit\n
+9. Grapes\n
+10. Kiwifruit\n
+11. Lemon/Limes\n
+12. Oranges\n
+13. Papaya\n
+14. Pears\n
+15. Pineapple\n
+16. Plums Amd Prunes\n
+17. Raspberries\n
+18. Strawberries\n
+19. Watermelon\n
+\n
+Seafood\n--------------------
+\n\n
+1. Cod\n
+2. Salmon\n
+3. Sardines\n
+4. Scallops\n
+5. Shrimp\n
+6. Tuna\n
+\n
+
+Nuts And Seeds\n-----------------------
+\n\n
+1. Almonds\n
+2. Cashews\n
+3. Flaxseeds\n
+4. Peanuts\n
+5. Pumpkin seeds\n
+6. Sesame seeds\n
+7. Sunflower seeds\n
+8. Walnuts\n
+\n
+
+Beans And Legumes\n-------------------------
+\n\n
+1. Black beans\n
+2. Dried peas\n
+3. Garbanzo beans (chickpeas)\n
+4. Kidney beans\n
+5. Lentils\n
+6. Lima beans\n
+7. Miso\n
+8. Navy beans\n
+9. Pinto beans\n
+10. Soy sauce\n
+11. Soybeans\n
+12. Tempeh\n
+13. Tofu\n
+\n
+
+Poultry And Meats\n------------------------------
+\n\n
+1. Beef, grass-fed\n
+2. Chicken, pasture-raised\n
+3. Lamb, grass-fed\n
+4. Turkey, pasture-raised\n
+\n
+
+Eggs And Dairy\n---------------------
+\n\n
+1. Cheese, grass-fed\n
+2. Cow's milk, grass-fed\n
+3. Eggs, pasture-raised\n
+4. Yogurt, grass-fed\n
+\n
+
+Grains\n------------------
+\n\n
+1. Barley\n
+2. Brown rice\n
+3. Buckwheat\n
+4. Millet\n
+5. Oats\n
+6. Quinoa\n
+7. Rye\n
+8. Whole wheat\n
+\n
+Herbs And Spices\n---------------------
+\n\n
+1. Basil\n
+2. Black pepper\n
+3. Chili pepper, dried\n
+4. Cilantro And Coriander seeds\n
+5. Cinnamon, ground\n
+6. Cloves\n
+7. Cumin seeds\n
+8. Dill\n
+9. Ginger\n
+10. Mustard seeds\n
+11. Oregano\n
+12. Parsley\n
+13. Peppermint\n
+14. Rosemary\n
+15. Sage\n
+16. Thyme\n
+17. Turmeric\n
+"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>
